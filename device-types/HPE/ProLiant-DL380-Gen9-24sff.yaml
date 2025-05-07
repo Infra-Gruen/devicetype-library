@@ -1,0 +1,107 @@
+---
+manufacturer: HPE
+model: ProLiant DL380 Gen9 24SFF
+slug: proliant-dl380-gen9-24sff
+description: ''
+default_platform: null
+part_number: 767032-B21
+u_height: 2.0
+is_full_depth: true
+subdevice_role: ''
+airflow: front-to-rear
+weight: 14.76
+weight_unit: kg
+comments: '[HPE ProLiant DL380 Gen9 Server QuickSpecs](https://www.hpe.com/psnow/doc/c04346247)'
+console-ports:
+- name: Serial
+  type: de-9
+  label: ''
+  description: ''
+interfaces:
+- name: Gig-E 1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Gig-E 2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Gig-E 3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Gig-E 4
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: iLO
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: FlexLOM
+  label: ''
+  position: FlexLOM
+  description: ''
+- name: PCIe1
+  label: ''
+  position: PCIe1
+  description: ''
+- name: PCIe2
+  label: ''
+  position: PCIe2
+  description: ''
+- name: PCIe3
+  label: ''
+  position: PCIe3
+  description: ''
+- name: PCIe4
+  label: ''
+  position: PCIe4
+  description: ''
+- name: PCIe5
+  label: ''
+  position: PCIe5
+  description: ''
+- name: PCIe6
+  label: ''
+  position: PCIe6
+  description: ''
+- name: PSU1
+  label: ''
+  position: PSU1
+  description: ''
+- name: PSU2
+  label: ''
+  position: PSU2
+  description: ''
