@@ -7,6 +7,7 @@ is_full_depth: true
 comments: '[HP ProLiant DL20 Gen9 QuickSpecs](https://www.hpe.com/psnow/doc/c04834947)'
 weight: 17.41
 weight_unit: lb
+part_number: 819784-B21 
 console-ports:
   - name: Serial
     type: de-9
