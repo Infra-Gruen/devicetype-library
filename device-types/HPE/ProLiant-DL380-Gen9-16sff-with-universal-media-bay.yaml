@@ -104,4 +104,5 @@ module-bays:
 - name: PSU2
   label: ''
   position: PSU2
+  description: ''
 
