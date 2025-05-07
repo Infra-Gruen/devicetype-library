@@ -1,0 +1,99 @@
+---
+manufacturer: HPE
+model: SimpliVity 380 Gen10 Node
+slug: simplivity-380-gen10-node
+description: ''
+default_platform: null
+part_number: Q8D81A
+u_height: 2.0
+is_full_depth: true
+subdevice_role: ''
+airflow: front-to-rear
+weight: null
+weight_unit: ''
+comments: '[HPE SimpliVity 380 Gen10 QuickSpecs](https://www.hpe.com/psnow/doc/a00021989enw?section=Document%20Types&r=none&ver=23)'
+power-ports:
+- name: Power Feed 1
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: 1600
+  label: power-1
+  description: HPE Flex Slot Platinum-PSU 1600 W
+- name: Power Feed 2
+  type: iec-60320-c14
+  maximum_draw: null
+  allocated_draw: 1600
+  label: power-2
+  description: HPE Flex Slot Platinum-PSU 1600 W
+interfaces:
+- name: e-1/1
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: Adapter 1 - HP FlexFabric 10Gb 2port 534FLR-SFP+ Adapter
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: e-1/2
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: Adapter 1 - HP FlexFabric 10Gb 2port 534FLR-SFP+ Adapter
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: ge-2/1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: Adapter 2 - HPE Ethernet 1Gb 4-port 331i Adapter - NIC
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: ge-2/2
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: Adapter 2 - HPE Ethernet 1Gb 4-port 331i Adapter - NIC
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: ge-2/3
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: Adapter 2 - HPE Ethernet 1Gb 4-port 331i Adapter - NIC
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: ge-2/4
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: Adapter 2 - HPE Ethernet 1Gb 4-port 331i Adapter - NIC
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: iLO-1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: iLO Dedicated Network Port
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+
